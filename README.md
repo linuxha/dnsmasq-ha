@@ -9,10 +9,10 @@ This project help you to deploy dnsmasq With HA and automatic recovery. A basic 
 ### How to use?
 * Clone this repo on all of the node:
 ```
-git clone https://github.com/nofdev/dnsmasq-ha.git
+git clone https://github.com/linuxha/dnsmasq-ha.git
 ```
 
-* According to the need to edit the configuration file. The configuration files stored in the following location:
+* Edit the configuration file. The configuration files stored in the following location:
   * redis-ha/conf/keepalived.conf.master
     - This is the keepalived master configuration, you have to edit the VIP.
   * redis-ha/conf/keepalived.conf.backup
