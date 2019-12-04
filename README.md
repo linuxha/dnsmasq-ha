@@ -6,6 +6,8 @@ dnsmasq failover (keepalived)
 ### Overview
 This project help you to deploy dnsmasq With HA and automatic recovery. A basic cluster is a dnsmasq master and a dnsmasq backup. This is only for Ubuntu Server.
 
+Requires keepalived (checking on that). I don't think redis-ha is required.
+
 ### How to use?
 * Clone this repo on all of the node:
 ```
