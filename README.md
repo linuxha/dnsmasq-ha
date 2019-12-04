@@ -30,5 +30,5 @@ sudo python dnsmasq-ha.py master
 sudo python dnsmasq-ha.py backup
 ```
 
-###Author
+### Author
 jiasir (Taio Jia) <jiasir@icloud.com>
